@@ -1,0 +1,56 @@
+name: instagram_pp
+description: "A new Flutter project."
+
+# Prevent the package from being accidentally published to pub.dev
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+# Dependencies specify other packages that your package needs to work.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.8
+  font_awesome_icon_class: ^0.0.6
+  image_picker: ^1.1.2
+  video_player: ^2.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints.
+  flutter_lints: ^4.0.0
+
+# For information on the generic Dart part of this file, see
+# https://dart.dev/tools/pub/pubspec
+
+# Section specific to Flutter packages.
+flutter:
+  # Ensures that the Material Icons font is included with your application.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section.
+  assets:
+      - images/insta_logo.png
+    # - images/a_dot_ham.jpeg
+
+  # To add custom fonts to your application, add a fonts section here.
+  fonts:
+    - family: Billabong
+      fonts:
+        - asset: assets/fonts/Billabong.ttf
+    - family: Aveny
+      fonts:
+        - asset: assets/fonts/AvenyTRegular.otf
+          style: normal
+        - asset: assets/fonts/AvenyTMedium.otf
+          style: italic
+
+# The following section can be used for additional documentation or comments.
